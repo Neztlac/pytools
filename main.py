@@ -44,7 +44,7 @@ while Main:
     print('')
     print('Pick a tool !\n')
 
-    choix = input('[1] : Ping\n[2] : My Public IP\n[3] : My Local IP\n[4] : Neofetch\n[5] : htop\n\n[6] : PYNSTALLER\n\n[Q] : Quit\n\n: ')
+    choix = input('[1] : Ping\n[2] : My Public IP\n[3] : My Local IP\n[4] : Neofetch\n[5] : htop\n\n[6] : PYNSTALLER\n[7] : PYCLICKER\n\n[Q] : Quit\n\n: ')
 
     if choix == '1':
         exec(open("./ping.py").read())
@@ -59,7 +59,7 @@ while Main:
     elif choix == '6':
        exec(open("./pynstaller.py").read())
     elif choix == '7':
-       exec(open("./pyFunc.py").read())
+       exec(open("./pyClicker.py").read())
     elif choix == 'q':
         #menu = 0
         clearscreen()

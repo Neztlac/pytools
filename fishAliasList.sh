@@ -13,6 +13,7 @@ alias install="sudo apt -y install"
 alias uu="sudo apt -y update && sudo apt -y upgrade"
 alias shutdown="sudo shutdown now"
 alias remove="sudo apt -y remove"
+alias search="apt search"
 
 #FUNCSAVE
 
@@ -24,5 +25,6 @@ funcsave install
 funcsave uu
 funcsave shutdown
 funcsave remove
+funcsave search
 
 END_FISH

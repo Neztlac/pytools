@@ -1,3 +1,5 @@
+#!/bin/bash
+
 fish << 'END_FISH'
 
 #SOFTWARE

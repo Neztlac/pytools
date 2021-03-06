@@ -14,6 +14,7 @@ alias uu="sudo apt -y update && sudo apt -y upgrade"
 alias shutdown="sudo shutdown now"
 alias remove="sudo apt -y remove"
 alias search="apt search"
+alias cdtools="cd ~/Documents/code/python/pytools"
 
 #FUNCSAVE
 
@@ -26,5 +27,6 @@ funcsave uu
 funcsave shutdown
 funcsave remove
 funcsave search
+funcsave cdtools
 
 END_FISH
